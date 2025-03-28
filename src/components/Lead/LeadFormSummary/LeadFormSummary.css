@@ -1,0 +1,27 @@
+/* Added by ankita tank on 1mar2025 */
+
+.selectinput {
+    border-radius : 10px !important;
+    border: 1px solid #627E8880 !important;
+    height : 50px;
+    font-size : 14px; 
+    font-weight : 500;
+}
+
+.textinput{
+    border-radius : 10px !important;
+    height : 50px;
+    font-size : 14px; 
+    font-weight : 500;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ms-3 {
+    margin-left: 10px;
+}

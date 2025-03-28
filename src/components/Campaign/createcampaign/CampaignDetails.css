@@ -1,0 +1,67 @@
+/* Adjust button alignment and responsiveness */
+.d-flex.justify-content-end.mt-4.mb-5.gap-2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  gap: 10px;
+}
+
+.red-outline-button {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+}
+
+.bottombuttons {
+  background-color: #28a745;
+  border: none;
+  color: white;
+}
+
+.tab-content.d-flex.flex-column.align-items-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form.mt-4.w-100.d-flex.flex-column.align-items-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.campaignfields {
+  padding: 1.5rem;
+  overflow-y: scroll;
+  height: 64vh;
+  overflow-x: hidden;
+}
+
+.leadCreationHeader.mb-3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.row.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .d-flex.justify-content-end.mt-4.mb-5.gap-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .red-outline-button,
+  .bottombuttons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .campaign-card.p-4.w-75 {
+    width: 100%;
+  }
+}

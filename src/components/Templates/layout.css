@@ -1,0 +1,98 @@
+.sidebar {
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    background-color: #343a40;
+    z-index: 1000;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Sidebar Navigation Item Styles */
+.nav-link-custom {
+  color: #314363 !important; /* Default text color */
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 14px;
+  border: 1px solid #FD8469;
+  background: #F6E1DA;
+}
+
+/* Highlight Active Menu Item */
+.nav-link-custom.active {
+  background-color: #800020; /* Burgundy color for active state */
+  color: white !important;
+  font-weight: bold;
+  height: 45px;
+}
+
+/* Hover Effect */
+/* .nav-link-custom:hover {
+  background-color: rgba(128, 0, 32, 0.8);
+  color: white;
+} */
+
+.content {
+  background-color: #fff5f2;
+}
+
+.childrensdiv {
+  position: fixed;
+  height: 97%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 25px;
+  opacity: 1;
+  width: 85%;
+}
+
+
+.logout-item {
+  width: max-content;
+  margin-top: 15rem !important;
+  border: 1px solid #FD8469;
+  background: #F6E1DA;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 35px;
+  margin-left: 40px;
+}
+
+.nav-link-custom .logout-link{
+  border: 1px solid #FD8469;
+  background: #F6E1DA;
+}

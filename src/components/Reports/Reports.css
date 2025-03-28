@@ -1,0 +1,118 @@
+.disabled-button {
+  background-color: #d3d3d3;
+  color: #a9a9a9;
+  cursor: not-allowed;
+}
+
+.enabled-button {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.selectinput {
+  border-radius: 10px !important;
+  border: 1px solid #627e8880 !important;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dateinput {
+  border-radius: 10px !important;
+  border: 1px solid #627e8880 !important;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  appearance: none;
+  /* color: transparent; */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.floating-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.floating-select label {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #627e88;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  background: white;
+  padding: 0 5px;
+}
+
+.floating-select select {
+  width: 100%;
+  padding: 15px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #627e8880 !important;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.floating-select select:focus + label,
+.floating-select select:valid + label,
+.floating-select .active {
+  top: 2px;
+  font-size: 12px;
+  background: white;
+}
+
+.downloadReport {
+  cursor: pointer;
+}
+
+.downloadReportIcon {
+  cursor: pointer;
+  color: #7d0015;
+}
+
+.bottombuttonReports {
+  background-color: #7e0114 !important;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 13px;
+  height: 40px;
+}
+
+.highlight {
+  border: 2px solid red !important;
+  background-color: #ffe6e6;
+}

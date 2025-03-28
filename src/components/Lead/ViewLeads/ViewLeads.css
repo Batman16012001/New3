@@ -1,0 +1,39 @@
+/* Active tab with red underline */
+.custom-tabs .nav-link.active {
+  color: #314363; /* Set color for active tab */
+  /*font-weight: bold; /* Optional: Make active tab bold */
+  border-bottom: 5px solid #800020 !important; /* Maroon-like color for active tab */
+  background-color: transparent !important;
+}
+.custom-tabs .nav-link {
+  color: #868ab1 !important; /* Set color for non-active tabs */
+  border: none !important;
+}
+
+/* Border and background color for data card */
+.data-card {
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+}
+
+/* Button colors */
+button.btn-maroon {
+  background-color: #800000;
+  border-color: #800000;
+}
+
+button.btn-maroon:hover {
+  background-color: #660000;
+  border-color: #660000;
+}
+
+.Leaddata {
+  border: none !important;
+  background-color: #f3f3f7 !important;
+  border-radius: 8px !important;
+  opacity: 1 !important;
+}
+
+.data-row {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,52 @@
+.progress-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.progress-step {
+  position: relative;
+  background-color: #fd84694d;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  min-width: 120px;
+}
+
+.progress-step.active {
+  background-color: #28a745; /* Green for completed stages */
+  color: white;
+}
+
+.progress-step:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #aaa;
+}
+
+.progress-step.active:not(:last-child)::after {
+  color: #28a745; /* Green arrow for active */
+}
+
+/* Last Stage Styling */
+.last-stage {
+  font-size: 16px;
+  font-weight: bold;
+  color: #314363;
+  margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+.createcampaignbutton {
+  background-color: maroon;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.campaignheading {
+  background-color: maroon;
+  color: #fff;
+}
+
+.campaignform {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.leadusers {
+  display: flex;
+  flex-direction: row;
+}
+
+.leaduserslabel {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.leadCreationHeader {
+  color: #7a0114;
+}
+
+.grey-box {
+  background-color: #868ab12b; /* Light grey background */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light border */
+  margin-top: 10px;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.scrollable-div {
+  flex-grow: 1; /* This allows the div to expand dynamically */
+  min-height: 100px; /* Ensures it has some height */
+  overflow-y: auto; /* Enables vertical scrolling when necessary */
+  overflow-x: hidden;
+  padding: 10px;
+  border: 1px solid #ccc; /* Optional: Just for visibility */
+}
+
+/* Shubham */
