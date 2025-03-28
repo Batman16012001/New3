@@ -1,0 +1,24 @@
+{
+    "CampaignSummaryDropdown": {
+      "filterOptions": [
+        { "value": "CampaignName", "label": "Campaign Name" },
+        { "value": "CampaignType", "label": "CampaignType" },
+        {"value" : "CampaignCost" , "label" : "CampaignCost"},
+        {"value" : "Status" , "label":"Status"}
+       
+      ]
+    },
+    "leadSummaryDropdown": {
+      "filterOptions": [
+        { "value": "first_name", "label": "First Name" },
+        { "value": "last_name", "label": "Last Name" },
+        { "value": "campaign_name", "label": "Campaign Name" },
+        { "value": "lead_source", "label": "Source" },
+        { "value": "current_stage", "label": "Stage" },
+        { "value": "so_code", "label": "Lead Owner" }
+
+        
+       
+      ]
+    }
+  }
